@@ -11,6 +11,7 @@ class Main{
         car1.accelerate();
         car1.refuel(10);
         car1.printData();
-
+        Car car2 = new Car("Nissan", "GT-R", 30);
+        car2.printData();
     }
 }

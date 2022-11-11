@@ -2,6 +2,17 @@ class Car{
     public String brand, model;
     public int amountOfFuel;
 
+    Car(){
+        brand="Lamborghini";
+        model="Aventador SVJ";
+        amountOfFuel=100;
+    }
+
+    Car(String brand, String model, int amountOfFuel){
+        this.brand = brand;
+        this.model = model;
+        this.amountOfFuel = amountOfFuel;
+    }
     public void brake(){
         System.out.println("Car is breaking");
     }
